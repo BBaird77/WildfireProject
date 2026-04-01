@@ -78,7 +78,7 @@ else:
                 "spatialRel": "esriSpatialRelIntersects",
             },
             headers={"User-Agent": "Mozilla/5.0"},
-            timeout=90,
+            timeout=2000,
         )
         response.raise_for_status()
         page = response.json()
