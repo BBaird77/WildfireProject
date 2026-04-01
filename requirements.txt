@@ -1,0 +1,19 @@
+# Inferred from project imports and runtime usage
+
+# Core data / API work
+numpy
+pandas
+requests
+
+# Geospatial processing
+geopandas
+shapely
+pyogrio
+pyproj
+
+# Modeling
+scikit-learn
+
+# Visualization / app
+plotly
+streamlit
